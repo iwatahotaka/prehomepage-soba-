@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'syuuzi';
+    src: url(/AoyagiKouzanTOTF.otf);
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+#title{
+    text-align: right;
+    margin: 15px;
+    font-size: 25px;
+    font-family: syuuzi;
+}
+
+.hamburger-menu{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    appearance: none;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.hamburger-menu_bar{
+    display: inline-block;
+    width: 2%;
+    height: 2px;
+    background: #242424;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+
+.hamburger-menu_bar:first-child{
+    top: 16px;
+}
+
+.hamburger-menu_bar:nth-child(2){
+    top: 24px;
+}
+
+.hamburger-menu_bar:last-child{
+    top: 32px;
+}
+
+.hamburger-menu--open .hamburger-menu_bar{
+    top: 4%;
+}
+
+.hamburger-menu--open .hamburger-menu_bar:first-child{
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.hamburger-menu--open .hamburger-menu_bar:last-child{
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+.hamburger-menu--open .hamburger-menu_bar:nth-child(2){
+    display: none;
+}
+
+.navigation{
+    display: none;
+    background: #242424;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navigation_list{
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.navigation_list-item{
+    border-bottom: solid 1px #474747;
+}
+
+.navigation_list-item:first-child{
+    border-top: solid 1px #474747;
+}
+
+.navigation_link{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    padding: 24px 0;
+    transition: .5s;
+}
+
+.pageTitle1{
+    border: 1px solid white;
+    width: 100%;
+    padding: 20px 0px;
+    color: #FFFFFF;
+}
+
+.pageTitle2{
+    border: 1px solid white;
+    width: 100%;
+    padding: 20px 0px;
+    color: #FFFFFF;
+}
+
+.pageTitle3{
+    border: 1px solid white;
+    width: 100%;
+    padding: 20px 0px;
+    color: #FFFFFF;
+}
+
+.content{
+    background-color: #999966;
+    height: 600px;
+}
+
+.textArea{
+    text-align: center;
+}
+
+.informationArea{
+    margin-left: 33%;
+}
+
+.map{
+    margin-left: 30%;
+}
+
+.shopInformation{
+    margin-left: 43%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: syuuzi;
+}
