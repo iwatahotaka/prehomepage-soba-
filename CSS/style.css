@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'syuuzi';
-    src: url(/AoyagiKouzanTOTF.otf);
+    src: url(https://iwatahotaka.github.io/prehomepage-soba-/AoyagiKouzanTOTF.otf);
 }
 
 .header{
@@ -20,7 +20,7 @@
 }
 
 .img-space{
-    background-image: url("/img/image_quality.psp.jpeg");
+    background-image: url("https://iwatahotaka.github.io/prehomepage-soba-/img/image_quality.psp.jpeg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
